@@ -10,7 +10,7 @@ use vars qw($VERSION);
 use LWP::UserAgent;
 use URI::Escape;
 
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 sub new {
   my $class = shift;
@@ -164,13 +164,7 @@ for some reason (google unreachable, url does not begin from
 
 =head1 BUGS
 
-I'm not sure how this module will work on perl compiled with
-C<use64bitint=define>. If you have a problems (or you succeeded)
-please mail me and tell result.
-
-Test suite is not yet done, will be in next version.
-
-If there are any other bugs, please report ;)
+If you find any, please report ;)
 
 =head1 AUTHOR
 
