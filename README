@@ -8,6 +8,7 @@ Installation is simple:
 
   perl Makefile.PL
   make
+  make test
   make install
 
 If you have questions mail to tech@askold.net.

@@ -2,4 +2,5 @@ MANIFEST
 README
 Makefile.PL
 lib/Google/PageRank.pm
+t/local.t
 META.yml                                 Module meta-data (added by MakeMaker)
